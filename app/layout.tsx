@@ -2,18 +2,18 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-    title: 'Aben Connect',
-    description: 'E-commerce platform',
+  title: 'Aben Connect',
+  description: 'E-commerce platform',
 }
 
 export default function RootLayout({
-    children,
+  children,
 }: {
-    children: React.ReactNode
+  children: React.ReactNode
 }) {
-    return (
-          <html lang="en">
-                <body>{children}</body>body>
-          </html>html>
-        )
-}</html>
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
+}
